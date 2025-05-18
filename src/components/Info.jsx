@@ -395,7 +395,7 @@ const Info = () => {
                   Skills
                 </h3>
               </div>
-              <div className="grid grid-cols-3 sm:grid-cols-4 gap-10  sm:ml-20 mt-10">
+              <div className="grid grid-cols-3 sm:grid-cols-4 gap-10   sm:ml-20 mt-10">
                 <motion.div
                   initial={{ y: 40, opacity: 0 }}
                   whileInView={{ y: 0, opacity: 1 }}
@@ -406,7 +406,7 @@ const Info = () => {
                   className="bg-white w-20 h-24 rounded-xl flex flex-col justify-center items-center text-black text-center xl:w-40 xl:bg-transparent xl:border xl:h-40 xl:text-white xl:border-white/30"
                 >
                   <img className="w-10 h-10 " src={HTML} alt="" />
-                  <h2 className="font-medium text-white/50 xl:text-base text-xs mt-3 ">
+                  <h2 className="font-medium text-black sm:text-white/50 xl:text-base text-xs mt-3 ">
                     HTML
                   </h2>
                 </motion.div>
@@ -420,7 +420,7 @@ const Info = () => {
                   className="bg-white w-20 h-24 rounded-xl flex flex-col justify-center items-center text-black text-center xl:w-40 xl:bg-transparent xl:border xl:h-40 xl:text-white xl:border-white/30"
                 >
                   <img className="w-10 h-10" src={CSS} alt="" />
-                  <h2 className="font-medium text-white/50 xl:text-base text-xs mt-3 ">
+                  <h2 className="font-medium text-black sm:text-white/50 xl:text-base text-xs mt-3 ">
                     CSS
                   </h2>
                 </motion.div>
@@ -434,7 +434,7 @@ const Info = () => {
                   className="bg-white w-20 h-24 rounded-xl flex flex-col justify-center items-center text-black text-center xl:w-40 xl:bg-transparent xl:border xl:h-40 xl:text-white xl:border-white/30"
                 >
                   <img className="w-10 h-10" src={Saas} alt="" />
-                  <h2 className="font-medium text-white/50 xl:text-base text-xs mt-3 ">
+                  <h2 className="font-medium text-black sm:text-white/50 xl:text-base text-xs mt-3 ">
                     Sass
                   </h2>
                 </motion.div>
@@ -448,7 +448,7 @@ const Info = () => {
                   className="bg-white w-20 h-24 rounded-xl flex flex-col justify-center items-center text-black text-center xl:w-40 xl:bg-transparent xl:border xl:h-40 xl:text-white xl:border-white/30"
                 >
                   <img className="w-10 h-8 " src={Bootstrap} alt="" />
-                  <h2 className="font-medium text-white/50 xl:text-base text-xs mt-3 ">
+                  <h2 className="font-medium text-black sm:text-white/50 xl:text-base text-xs mt-3 ">
                     Bootstrap
                   </h2>
                 </motion.div>
@@ -462,7 +462,7 @@ const Info = () => {
                   className="bg-white w-20 h-24 rounded-xl flex flex-col justify-center items-center text-black text-center xl:w-40 xl:bg-transparent xl:border xl:h-40 xl:text-white xl:border-white/30"
                 >
                   <img className="w-10 h-8 " src={Tailwindcss} alt="" />
-                  <h2 className="font-medium text-white/50 xl:text-base text-xs mt-3 ">
+                  <h2 className="font-medium text-black sm:text-white/50 xl:text-base text-xs mt-3 ">
                     Tailwindcss
                   </h2>
                 </motion.div>
@@ -476,7 +476,7 @@ const Info = () => {
                   className="bg-white w-20 h-24 rounded-xl flex flex-col justify-center items-center text-black text-center xl:w-40 xl:bg-transparent xl:border xl:h-40 xl:text-white xl:border-white/30"
                 >
                   <img className="w-10 h-10" src={Javascript} alt="" />
-                  <h2 className="font-medium text-white/50 xl:text-base text-xs mt-3 ">
+                  <h2 className="font-medium text-black sm:text-white/50 xl:text-base text-xs mt-3 ">
                     Javascript
                   </h2>
                 </motion.div>
@@ -490,7 +490,7 @@ const Info = () => {
                   className="bg-white w-20 h-24 rounded-xl flex flex-col justify-center items-center text-black text-center xl:w-40 xl:bg-transparent xl:border xl:h-40 xl:text-white xl:border-white/30"
                 >
                   <img className="w-10 h-10" src={Typescript} alt="" />
-                  <h2 className="font-medium text-white/50 xl:text-base text-xs mt-3 ">
+                  <h2 className="font-medium text-black sm:text-white/50 xl:text-base text-xs mt-3 ">
                     Typescript
                   </h2>
                 </motion.div>
@@ -504,7 +504,7 @@ const Info = () => {
                   className="bg-white w-20 h-24 rounded-xl flex flex-col justify-center items-center text-black text-center xl:w-40 xl:bg-transparent xl:border xl:h-40 xl:text-white xl:border-white/30"
                 >
                   <img className="w-10 h-10" src={Vite} alt="" />
-                  <h2 className="font-medium text-white/50 xl:text-base text-xs mt-3 ">
+                  <h2 className="font-medium text-black sm:text-white/50 xl:text-base text-xs mt-3 ">
                     Vite
                   </h2>
                 </motion.div>
@@ -518,7 +518,7 @@ const Info = () => {
                   className="bg-white w-20 h-24 rounded-xl flex flex-col justify-center items-center text-black text-center xl:w-40 xl:bg-transparent xl:border xl:h-40 xl:text-white xl:border-white/30"
                 >
                   <img className="w-10 h-10" src={ReactIcon} alt="" />
-                  <h2 className="font-medium text-white/50 xl:text-base text-xs mt-3 ">
+                  <h2 className="font-medium text-black sm:text-white/50 xl:text-base text-xs mt-3 ">
                     React
                   </h2>
                 </motion.div>
@@ -532,7 +532,7 @@ const Info = () => {
                   className="bg-white w-20 h-24 rounded-xl flex flex-col justify-center items-center text-black text-center xl:w-40 xl:bg-transparent xl:border xl:h-40 xl:text-white xl:border-white/30"
                 >
                   <img className="w-10 h-10" src={Node} alt="" />
-                  <h2 className="font-medium text-white/50 xl:text-base text-xs mt-3 ">
+                  <h2 className="font-medium text-black sm:text-white/50 xl:text-base text-xs mt-3 ">
                     NodeJs
                   </h2>
                 </motion.div>
@@ -546,7 +546,7 @@ const Info = () => {
                   className="bg-white w-20 h-24 rounded-xl flex flex-col justify-center items-center text-black text-center xl:w-40 xl:bg-transparent xl:border xl:h-40 xl:text-white xl:border-white/30"
                 >
                   <img className="w-10 h-12" src={Mongo} alt="" />
-                  <h2 className="font-medium text-white/50 xl:text-base text-xs mt-3 ">
+                  <h2 className="font-medium text-black sm:text-white/50 xl:text-base text-xs mt-3 ">
                     MongoDB
                   </h2>
                 </motion.div>
@@ -560,7 +560,7 @@ const Info = () => {
                   className="bg-white w-20 h-24 rounded-xl flex flex-col justify-center items-center text-black text-center xl:w-40 xl:bg-transparent xl:border xl:h-40 xl:text-white xl:border-white/30"
                 >
                   <img className="w-10 h-10" src={Git} alt="" />
-                  <h2 className="font-medium text-white/50 xl:text-base text-xs mt-3 ">
+                  <h2 className="font-medium text-black sm:text-white/50 xl:text-base text-xs mt-3 ">
                     Git
                   </h2>
                 </motion.div>
@@ -574,7 +574,7 @@ const Info = () => {
                   className="bg-white w-20 h-24 rounded-xl flex flex-col justify-center items-center text-black text-center xl:w-40 xl:bg-transparent xl:border xl:h-40 xl:text-white xl:border-white/30"
                 >
                   <img className="w-10 h-10" src={Firebase} alt="" />
-                  <h2 className="font-medium text-white/50 xl:text-base text-xs mt-3 ">
+                  <h2 className="font-medium text-black sm:text-white/50 xl:text-base text-xs mt-3 ">
                     Firebase
                   </h2>
                 </motion.div>
@@ -588,7 +588,7 @@ const Info = () => {
                   className="bg-white w-20 h-24 rounded-xl flex flex-col justify-center items-center text-black text-center xl:w-40 xl:bg-transparent xl:border xl:h-40 xl:text-white xl:border-white/30"
                 >
                   <img className="w-7 h-10" src={Figma} alt="" />
-                  <h2 className="font-medium text-white/50 xl:text-base text-xs mt-3 ">
+                  <h2 className="font-medium text-black sm:text-white/50 xl:text-base text-xs mt-3 ">
                     Figma
                   </h2>
                 </motion.div>
@@ -602,7 +602,7 @@ const Info = () => {
                   className="bg-white w-20 h-24 rounded-xl flex flex-col justify-center items-center text-black text-center xl:w-40 xl:bg-transparent xl:border xl:h-40 xl:text-white xl:border-white/30"
                 >
                   <img className="w-10 h-10" src={Postman} alt="" />
-                  <h2 className="font-medium text-white/50 xl:text-base text-xs mt-3 ">
+                  <h2 className="font-medium text-black sm:text-white/50 xl:text-base text-xs mt-3 ">
                     Postman
                   </h2>
                 </motion.div>
@@ -620,7 +620,7 @@ const Info = () => {
                     src={Next}
                     alt=""
                   />
-                  <h2 className="font-medium text-white/50 xl:text-base text-xs mt-3 ">
+                  <h2 className="font-medium text-black sm:text-white/50 xl:text-base text-xs mt-3 ">
                     NextJs
                   </h2>
                 </motion.div>
@@ -634,7 +634,7 @@ const Info = () => {
                   className="bg-white w-20 h-24 rounded-xl flex flex-col justify-center items-center text-black text-center xl:w-40 xl:bg-transparent xl:border xl:h-40 xl:text-white xl:border-white/30"
                 >
                   <img className="w-10 h-10" src={Java} alt="" />
-                  <h2 className="font-medium text-white/50 xl:text-base text-xs mt-3 ">
+                  <h2 className="font-medium text-black sm:text-white/50 xl:text-base text-xs mt-3 ">
                     Java
                   </h2>
                 </motion.div>
