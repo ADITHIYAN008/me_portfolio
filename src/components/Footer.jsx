@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="w-full border-t-[1px] mt-[8rem] sm:mt-[14rem] border-gray-200/10">
       <div className="relative max-w-[1100px] mt-16 px-6 h-[400px] mx-auto">
         <nav>
-          <div className="w-[350px] h-[200px] flex gap-20 ">
+          <div className="w-[200px] h-[200px] flex gap-20 ">
             <div className="flex flex-col gap-7">
               <h3 className=" font-medium text-xs text-gray-200/40 uppercase ">
                 main

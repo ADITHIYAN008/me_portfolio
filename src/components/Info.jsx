@@ -669,7 +669,7 @@ const Info = () => {
             </section>{" "}
             <div className="border-t-[1px] border-gray-200/20 mt-24"></div>
             <section className=" mt-10 md:mt-16">
-              <div className="flex gap-7 relative w-3 h-3 mb-10 md:mb-0 rounded-full bg-white items-center">
+              <div className="flex gap-7 relative w-3 h-3 mb-10 md:mb-0 rounded-full bg-white items-center ">
                 <div className="absolute w-4 h-4 rounded-full bg-white blur-[0.7rem]"></div>
                 <h3 className="font-medium ml-8 uppercase text-nowrap text-xs text-gray-200/40 ">
                   CERTIFICATIONS
@@ -707,7 +707,7 @@ const Info = () => {
                 >
                   <img
                     src={IBM_COURSERA}
-                    className="max-w-[400px] w-[300px] hover:scale-110 duration-500 ease-in-out rounded-lg"
+                    className="max-w-[400px] w-[250px] hover:scale-110 duration-500 ease-in-out rounded-lg"
                     alt=""
                   />
                 </a>
@@ -726,7 +726,7 @@ const Info = () => {
                     href="https://www.credly.com/badges/515089d5-41ce-4090-b28c-ca3864dc1165/linked_in_profile"
                     className="font-medium text-[18px]  text-nowrap md:text-2xl mb-2"
                   >
-                    Web Development with HTML, CSS, JavaScript Essentials
+                    Web Development
                   </a>
                   <h3 className="md:w-[27rem] font-medium text-[15px] md:text-lg text-gray-200/50">
                     IBM
@@ -741,7 +741,7 @@ const Info = () => {
                 >
                   <img
                     src={IBM_WEB}
-                    className="max-w-[400px] w-[300px] hover:scale-110 duration-500 ease-in-out rounded-lg"
+                    className="max-w-[400px] w-[250px] hover:scale-110 duration-500 ease-in-out rounded-lg"
                     alt=""
                   />
                 </a>
